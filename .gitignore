@@ -1,0 +1,37 @@
+# Saída compilada
+/dist
+/node_modules
+nodemon.json
+ 
+# Troncos
+Troncos
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+ 
+# OS
+.DS_Store
+ 
+# Testes
+/cobertura
+/.nyc_output
+ 
+# IDEs e editores
+/.ideia
+.project
+.classpath
+.c9/
+*.lançamento
+.Configurações/
+*.espaço de trabalho sublime
+ 
+# IDE - Visual Studio Code
+.vscode/*
+!. vscode/settings.json
+!. vscode/tasks.json
+!. vscode/launch.json
+!. VSCODE/extensions.json
+ 
