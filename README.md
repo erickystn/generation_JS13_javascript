@@ -61,7 +61,7 @@ Os exemplos foram desenvolvidos com base nas aulas ao vivo (*Live Codes*) e em e
 
 ```
 /
-├── helloworld/
+├── hello-world/
 ├── aula02/
 ├── aula03/
 ├── aula04/
