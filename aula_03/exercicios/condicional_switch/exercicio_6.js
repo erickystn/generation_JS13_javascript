@@ -10,6 +10,15 @@ const formatadorMoeda = new Intl.NumberFormat("pt-BR", {
   currency: "BRL",
 });
 
+console.table( [
+    { codigo: 1, cargo: "Gerente", reajuste: "10%" },
+    { codigo: 2, cargo: "Vendedor", reajuste: "7%" },
+    { codigo: 3, cargo: "Supervisor", reajuste: "9%" },
+    { codigo: 4, cargo: "Motorista", reajuste: "6%" },
+    { codigo: 5, cargo: "Estoquista", reajuste: "5%" },
+    { codigo: 6, cargo: "Técnico de TI", reajuste: "8%" },
+]);
+
 const nomeColaborador = leitor.question("Digite o nome do Colaborador: ");
 const codCargo = leitor.questionInt("Digite o codigo do cargo: ");
 let reajuste = 0.0;

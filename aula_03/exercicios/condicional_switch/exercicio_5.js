@@ -9,6 +9,14 @@ const formatadorMoeda = new Intl.NumberFormat("pt-BR", {
   style: "currency",
   currency: "BRL",
 });
+console.log( [
+    { codigo: 1, produto: "Cachorro Quente", preco: "R$ 10.00" },
+    { codigo: 2, produto: "X-Salada", preco: "R$ 15.00" },
+    { codigo: 3, produto: "X-Bacon", preco: "R$ 18.00" },
+    { codigo: 4, produto: "Bauru", preco: "R$ 12.00" },
+    { codigo: 5, produto: "Refrigerante", preco: "R$ 8.00" },
+    { codigo: 6, produto: "Suco de laranja", preco: "R$ 13.00" },
+]);
 
 const codProduto = leitor.questionInt("Digite o codigo do produto: ");
 let precoProduto = 0.0;
