@@ -3,7 +3,7 @@
 // o Código do Cargo do Colaborador (número inteiro entre 1 e 6)
 // e o Salário (número real). A seguir, mostre na tela o Nome do
 // Colaborador, o Cargo e o novo Salário reajustado.
-
+"use strict"
 const leitor = require("readline-sync");
 const formatadorMoeda = new Intl.NumberFormat("pt-BR", {
   style: "currency",
@@ -53,10 +53,10 @@ switch (codCargo) {
 
   default:
     console.log("Codigo Cargo Invalido!");
-    break;
+    return;
+
 }
 
-if (codCargo > 6 || codCargo < 1) return;
 const salario = leitor.questionFloat("Digite o salario: ");
 novoSalario = salario * reajuste;
 

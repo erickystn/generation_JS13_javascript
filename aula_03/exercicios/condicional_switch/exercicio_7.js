@@ -6,7 +6,7 @@
 //   mostre a mensagem na tela Operação Inválida!
 
 
-
+"use strict"
 const leitor = require("readline-sync");
 
 const primeiroNum = leitor.questionFloat("Digite o 1o numero: ");

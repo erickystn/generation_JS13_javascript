@@ -3,7 +3,7 @@
 // quantidade comprada deste item (número inteiro).
 //  A seguir, mostre na tela o valor total da conta
 //   e o nome do produto que foi comprado.
-
+"use strict"
 const leitor = require("readline-sync");
 const formatadorMoeda = new Intl.NumberFormat("pt-BR", {
   style: "currency",
@@ -51,10 +51,9 @@ switch (codProduto) {
 
   default:
     console.log("Codigo Produto Invalido!");
-    break;
-}
+    return;
 
-if (codProduto > 6 || codProduto < 1) return;
+}
 
 const qtdProduto = leitor.questionInt("Digite a quantidade comprada: ");
 

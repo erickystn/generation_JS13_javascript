@@ -7,6 +7,7 @@
 //   mostre na tela se o doador está Apto ou Não Apto para doar sangue.
 //    Veja os exemplos abaixo:
 
+"use strict"
 const leitor = require("readline-sync");
 
 let mensagem = leitor.question("Digite o Nome do doador: ");
